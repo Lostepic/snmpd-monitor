@@ -4,7 +4,7 @@ import subprocess
 import argparse
 
 # Configuration
-CPU_THRESHOLD = 5  # Percentage
+CPU_THRESHOLD = 50  # Percentage based on per core, the script will work out per core so setting 50 here is 50% of 1 core
 CHECK_INTERVAL = 60  # Seconds
 
 def get_snmpd_process(debug=False):
