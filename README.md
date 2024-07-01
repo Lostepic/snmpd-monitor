@@ -25,7 +25,7 @@ pip3 install psutil --break-system-packages
 Clone this repository to your desired directory.
 
 ```bash
-git clone [<repository_url>](https://github.com/Lostepic/snmpd-monitor) /root/snmpd-mon
+git clone https://github.com/Lostepic/snmpd-monitor /root/snmpd-mon
 cd /root/snmpd-mon
 ```
 
@@ -100,3 +100,7 @@ sudo systemctl start monitor_snmpd.service
 
   Press `Ctrl+A` followed by `D`.
 ```
+
+### Debug mode
+
+Running the script with `--debug` will provide more details, by default the script is run with debug in the screen.
