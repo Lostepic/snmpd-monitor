@@ -12,12 +12,12 @@ This repository contains a script to monitor the CPU usage of the `snmpd` proces
 
 ### 1. Install Dependencies
 
-Ensure that `screen` and `psutil` are installed on your system.
+Ensure that `screen`, `termcolor` and `psutil` are installed on your system.
 
 ```bash
 sudo apt-get update
-sudo apt-get install screen python3-pip
-pip3 install psutil --break-system-packages
+sudo apt-get install screen python3 python3-pip
+pip3 install psutil termcolor --break-system-packages
 ```
 
 ### 2. Clone the Repository
